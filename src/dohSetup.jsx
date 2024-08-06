@@ -48,7 +48,7 @@ export default function DohSetup() {
         <Fragment>
             <div className="doh">
                 <div className="cursor"></div>
-                <Link to="/agaaminFrontend">
+                <Link to="/">
                 <div className="dohSetuplogo">
                     <img className="dohLogo" src={logo} alt="company logo" />
                 </div>
@@ -85,7 +85,7 @@ export default function DohSetup() {
                     <div className="dohSetupImage">
                         <img src={dohSetup} alt="steps" />
                     </div>
-                    <Link to='/agaaminFrontend/'>
+                    <Link to='/'>
                         <div className="dohHomeButton">
                             <button className="dohHomeButtonButton">Home Page</button>
                         </div>

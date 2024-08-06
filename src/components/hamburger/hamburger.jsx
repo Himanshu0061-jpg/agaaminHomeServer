@@ -25,7 +25,7 @@ export default function Hamburger() {
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><Link to="/agaaminFrontend/dohSetup">DOH Setup</Link></li>
+            <li><Link to="/dohSetup">DOH Setup</Link></li>
           </ul>
         </div>
       )}

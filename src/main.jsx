@@ -7,11 +7,11 @@ import DohSetup from './dohSetup.jsx'
 
 const router = createBrowserRouter([
   {
-  path:'agaaminFrontend/',
+  path:'/',
   element:<App />
   },
   {
-    path:'agaaminFrontend/dohSetup',
+    path:'/dohSetup',
     element:<DohSetup></DohSetup>
   }
    
@@ -20,6 +20,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
     <RouterProvider router={router}></RouterProvider>
   </React.StrictMode>,
 )
